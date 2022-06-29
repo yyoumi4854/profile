@@ -1,0 +1,18 @@
+html, body {
+  font-family: "Elice Digital Baeum",sans-serif;
+}
+
+*{margin: 0; padding: 0;}
+a{text-decoration: none;}
+
+/* header */
+header nav{background-color: gray;}
+header nav ul{display: flex;}
+header nav ul li{padding: 10px;}
+header nav ul li a{color: #fff;}
+
+/* main */
+.item_wrap{display: grid; grid-template-columns: 1fr 1fr;}
+.item_wrap .item{}
+/* footer */
+footer{background-color: lightgray;}
